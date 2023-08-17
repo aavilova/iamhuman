@@ -1,0 +1,119 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside{
+    border: 1px solid #FF0101;
+    padding: 8px;
+    border-radius: 2px;
+}
+.please{
+    color: #FF0101;
+    font-feature-settings: 'liga' off;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px; /* 108.333% */
+    letter-spacing: -0.5px;
+    margin: 12px 0 0 0;
+}
+.captcha{
+    padding: 16px;
+    width: 386px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #D6D6D6;
+    background: #FFF;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.20);
+}
+.head{
+    width: 386px;
+    height: auto;
+    background: #468EE5;
+}
+.head > p{
+    margin: 0;
+    padding: 24px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.head > p > span{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+.picture{
+    margin-top: 4px;
+    margin-bottom: 6px;
+}
+.picture > .row-1{
+    display: flex;
+    width: 129px;
+    height: 129px;
+}
+.picture > .row-2{
+    display: flex;
+    width: 129px;
+    height: 129px;
+}
+.picture > .row-3{
+    display: flex;
+    width: 129px;
+    height: 129px;
+}
+.border{
+    width: 386px;
+    height: 1px;
+    background: #DFDFDF;
+}
+.submit{
+    margin-top: 12px;
+    width: 386px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.submit > img{
+    width: 96px;
+    height: 24px;
+}
+.submit > a{
+    display: inline-flex;
+    padding: 9px 23px 9px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    background: #468EE5;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.hidden{
+    display: none;
+    -moz-transition: opacity 1s, visibility 1.3s;
+    -webkit-transition: opacity 1s, visibility 1.3s;
+    -o-transition: opacity 1s, visibility 1.3s;
+    transition: opacity 1s, visibility 1.3s;
+}
+.i1, .i2, .i3, .i4, .i5, .i6, .i7, .i8, .i9{
+    -moz-transition: opacity 1s, visibility 1.3s;
+    -webkit-transition: opacity 1s, visibility 1.3s;
+    -o-transition: opacity 1s, visibility 1.3s;
+    transition: opacity 1s, visibility 1.3s;
+}
+.i1a, .i2a, .i3a, .i4a, .i5a, .i6a, .i7a, .i8a, .i9a{
+    -moz-transition: opacity 1s, visibility 1.3s;
+    -webkit-transition: opacity 1s, visibility 1.3s;
+    -o-transition: opacity 1s, visibility 1.3s;
+    transition: opacity 1s, visibility 1.3s;
+}

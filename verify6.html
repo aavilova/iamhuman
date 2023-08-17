@@ -1,0 +1,126 @@
+<html>
+  <head>
+    <title>Verify you are a human</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <form class="inside">
+      <div class="captcha">
+        <div class="head">
+          <p>Select all squares with <br> <span>crosswalk</span> <br> if there are none, click next</p>
+        </div>
+        <div class="picture">
+          <div class="row-1">
+            <img class="i1" src="ch6/f1.jpg" alt="">
+            <img class="i1a hidden" src="ch6/s1.jpg" alt="">
+            <img class="i2" src="ch6/f2.jpg" alt="">
+            <img class="i2a hidden" src="ch6/s2.jpg" alt="">
+            <img class="i3" src="ch6/f3.jpg" alt="">
+            <img class="i3a hidden" src="ch6/s3.jpg" alt="">
+          </div>
+          <div class="row-2">
+            <img class="i4" src="ch6/f4.jpg" alt="">
+            <img class="i4a hidden" src="ch6/s4.jpg" alt="">
+            <img class="i5" src="ch6/f5.jpg" alt="">
+            <img class="i5a hidden" src="ch6/s5.jpg" alt="">
+            <img class="i6" src="ch6/f6.jpg" alt="">
+            <img class="i6a hidden" src="ch6/s6.jpg" alt="">
+          </div>
+          <div class="row-3">
+            <img class="i7" src="ch6/f7.jpg" alt="">
+            <img class="i7a hidden" src="ch6/s7.jpg" alt="">
+            <img class="i8" src="ch6/f8.jpg" alt="">
+            <img class="i8a hidden" src="ch6/s8.jpg" alt="">
+            <img class="i9" src="ch6/f9.jpg" alt="">
+            <img class="i9a hidden" src="ch6/s9.jpg" alt="">
+          </div>
+        </div>
+        <div class="border"></div>
+        <div class="submit">
+          <img src="addinfo.jpg" alt="">
+          <a href="verify8.html">Next</a>
+        </div>
+      </div>
+      <p class="please">Please verify that you are a human</p>
+    </form>
+  </body>
+  <script>
+    $(document).ready(function(){
+      $(".i1").click(function(){
+        $(".i1a").toggleClass("hidden"),
+        $(this).toggleClass("hidden")
+      });
+      $(".i1a").click(function(){
+        $(".i1").toggleClass("hidden"),
+        $(this).toggleClass("hidden")
+      });
+      $(".i2").click(function(){
+        $(".i2a").toggleClass("hidden"),
+        $(this).toggleClass("hidden")
+      });
+      $(".i2a").click(function(){
+        $(".i2").toggleClass("hidden"),
+        $(this).toggleClass("hidden")
+      });
+      $(".i3").click(function(){
+        $(".i3a").toggleClass("hidden"),
+        $(this).toggleClass("hidden")
+      });
+      $(".i3a").click(function(){
+        $(".i3").toggleClass("hidden"),
+        $(this).toggleClass("hidden")
+      });
+      $(".i4").click(function(){
+        $(".i4a").toggleClass("hidden"),
+        $(this).toggleClass("hidden")
+      });
+      $(".i4a").click(function(){
+        $(".i4").toggleClass("hidden"),
+        $(this).toggleClass("hidden")
+      });
+      $(".i5").click(function(){
+        $(".i5a").toggleClass("hidden"),
+        $(this).toggleClass("hidden")
+      });
+      $(".i5a").click(function(){
+        $(".i5").toggleClass("hidden"),
+        $(this).toggleClass("hidden")
+      });
+      $(".i6").click(function(){
+        $(".i6a").toggleClass("hidden"),
+        $(this).toggleClass("hidden")
+      });
+      $(".i6a").click(function(){
+        $(".i6").toggleClass("hidden"),
+        $(this).toggleClass("hidden")
+      });
+      $(".i7").click(function(){
+        $(".i7a").toggleClass("hidden"),
+        $(this).toggleClass("hidden")
+      });
+      $(".i7a").click(function(){
+        $(".i7").toggleClass("hidden"),
+        $(this).toggleClass("hidden")
+      });
+      $(".i8").click(function(){
+        $(".i8a").toggleClass("hidden"),
+        $(this).toggleClass("hidden")
+      });
+      $(".i8a").click(function(){
+        $(".i8").toggleClass("hidden"),
+        $(this).toggleClass("hidden")
+      });
+      $(".i9").click(function(){
+        $(".i9a").toggleClass("hidden"),
+        $(this).toggleClass("hidden")
+      });
+      $(".i9a").click(function(){
+        $(".i9").toggleClass("hidden"),
+        $(this).toggleClass("hidden")
+      })
+    });
+  </script>
+</html>

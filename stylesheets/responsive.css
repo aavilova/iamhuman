@@ -1,0 +1,87 @@
+@media only screen and (max-width: 1024px) {
+    .captcha{
+        padding: 6px;
+        width: 300px;
+        height: auto;
+        flex-shrink: 0;
+        border-radius: 2px;
+        border: 1px solid #D6D6D6;
+        background: #FFF;
+        box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.20);
+    }
+    .head{
+        width: 300px;
+        height: auto;
+        background: #468EE5;
+    }
+    .head > p{
+        margin: 0;
+        padding: 16px;
+        color: white;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .head > p > span{
+        color: white;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .picture{
+        margin-top: 4px;
+        margin-bottom: 6px;
+    }
+    .picture > .row-1{
+        display: flex;
+        width: 100px;
+        height: 100px;
+    }
+    .picture > .row-2{
+        display: flex;
+        width: 100px;
+        height: 100px;
+    }
+    .picture > .row-3{
+        display: flex;
+        width: 100px;
+        height: 100px;
+    }
+    .border{
+        width: 300px;
+        height: 1px;
+        background: #DFDFDF;
+    }
+    .submit{
+        margin-top: 6px;
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+    }
+    .submit > img{
+        width: 96px;
+        height: 24px;
+    }
+    .submit > a{
+        display: inline-flex;
+        padding: 9px 23px 9px 24px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+        background: #468EE5;
+        color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .hidden{
+        display: none;
+        -moz-transition: opacity 1s, visibility 1.3s;
+        -webkit-transition: opacity 1s, visibility 1.3s;
+        -o-transition: opacity 1s, visibility 1.3s;
+        transition: opacity 1s, visibility 1.3s;
+    }
+   }
